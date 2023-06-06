@@ -1,20 +1,19 @@
 package com.CucumberScnd;
 
-import static org.junit.Assert.assertTrue;
+public class AppTest{
+	
+	private void sysout() {
+		System.out.println("naveen");
 
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+	}
+	
+	public void method2() {
+		System.out.println("rutu");
+	}
+	
+	public static void main(String[] args) {
+		AppTest t = new AppTest();
+		t.sysout();
+		t.method2();
+	}
 }
